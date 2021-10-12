@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed,wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #c8b987 52.44%, #d0d9e4 70.07%);
+  font-family: "Roboto+Condensed", sans-serif;
+}
+
+.button {
+  color: black;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  background: #c8d9e4;
+  display: block;
+  cursor: pointer;
+  border: 3px solid #100000;
+  width: 100%;
+  display: none;
+  margin: 10px;
+}
+.buttonoff {
+  color: black;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  background: #c8d9e4;
+  display: block;
+  cursor: pointer;
+  border: 3px solid #100000;
+  width: 100%;
+  margin: 10px;
+  opacity: 0.5;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 24px;
+  border-radius: 20px;
+  box-shadows: 6px 6px 6px #0e1d2f;
+  padding: 14px;
+  display: inline-block;
+  align-items: center;
+}
+
+.titulo {
+  text-align: center;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.perfil {
+}
+
+.texto {
+  display: none;
+}
